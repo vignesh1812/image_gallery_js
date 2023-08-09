@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="css/images.css">
+    <!-- Boostrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <!-- Box Icons -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Navbar -->
+        <nav class="mt-5 d-flex justify-content-center">
+            <ul class="items list-unstyled list-inline ">
+                <li class="item ms-2 my-1   px-3 py-1    list-inline-item  active" data-name="all">All</li>
+                <li class="item ms-2 my-1   px-3 py-1    list-inline-item" data-name="headphones">Headphones</li>
+                <li class="item ms-2 my-1   px-3 py-1    list-inline-item" data-name="speakers">Speakers</li>
+                <li class="item ms-2 my-1   px-3 py-1    list-inline-item" data-name="camera">Camera</li>
+                <li class="item ms-2 my-1   px-3 py-1    list-inline-item" data-name="bag">Bag</li>
+                <li class="item ms-2 my-1   px-3 py-1    list-inline-item" data-name="shoe">Shoe</li>
+                <li class="item ms-2 my-1   px-3 py-1    list-inline-item" data-name="watch">Watch</li>
+
+            </ul>
+        </nav>
+
+        <!-- Gallery -->
+
+        <div class="gallery">
+            <div class="gallery-item" data-name="watch"> <span> <img class="img-fluid" src="images/images-1.jpg"
+                        alt="Watch" srcset=""></span></div>
+            <div class="gallery-item" data-name="headphones"> <span> <img class="img-fluid" src="images/images-2.jpg"
+                        alt="Headphones" srcset="">
+                </span></div>
+            <div class="gallery-item" data-name="camera"><span><img class="img-fluid" src="images/images-3.jpg"
+                        alt="Dslr Camera" srcset="">
+                </span></div>
+            <div class="gallery-item" data-name="bag"><span><img class="img-fluid" src="images/images-4.jpg"
+                        alt="HandBag" srcset="">
+                </span></div>
+            <div class="gallery-item" data-name="shoe"><span><img class="img-fluid" src="images/images-5.jpg"
+                        alt="shoes with Knife" srcset=""></span></div>
+            <div class="gallery-item" data-name="speakers"><span><img class="img-fluid" src="images/images-6.jpg"
+                        alt="speaker" srcset="">
+                </span></div>
+            <div class="gallery-item" data-name="camera"><span><img class="img-fluid" src="images/images-7.jpg"
+                        alt="Dslr" srcset=""></span></div>
+            <div class="gallery-item" data-name="speakers"><span><img class="img-fluid" src="images/images-8.jpg"
+                        alt="marshell speaker" srcset=""></span></div>
+        </div>
+
+        <!-- full screen preview images -->
+        <div class="preview-box">
+            <div class="details">
+                <div class="title"><span>image category :<p>not Defined</p></span></div>
+                <span class='bx bx-x icon'></span>
+            </div>
+            <div class="image-box">
+                <img src="" alt="">
+            </div>
+        </div>
+
+         <div class="shadow">
+
+         </div>
+
+
+
+        <script src="js/images.js"></script>
+        <!-- BOOTSTRAP JS CDN -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
